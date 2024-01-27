@@ -1,0 +1,229 @@
+html{
+	scroll-behavior:smooth;
+}
+
+/* spamming linear-gradient() function */
+
+body {
+	height: 100%;
+	background: linear-gradient(to Right bottom, violet 30%, blue);
+	color: white;
+	font-family: monosans;
+	border-radius: 0px;
+	background-repeat: no-repeat;
+	scroll-behavior: smooth;
+}
+
+legend {
+	font-size: 50px;
+}
+
+::-webkit-scrollbar{
+	background:linear-gradient( Lightcoral, violet);
+	width:5px;
+}
+
+
+#Title {
+	margin: auto;
+	align-self: center;
+	text-align: center;
+	font-size: 50px;
+	background: linear-gradient(150deg, lightBlue 30%, lime);
+	background-clip: text;
+	color: transparent;
+}
+
+#category {
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+	align-self: center;
+
+}
+
+#legend-Audio {
+	color: transparent;
+	background: linear-gradient(to left, orange 5%, #FFE5B4);
+	background-clip: text;
+}
+
+#legend-middle {
+	color: transparent;
+	background: radial-gradient(black, orange);
+	background-clip: text;
+}
+
+#legend-Video {
+	color: transparent;
+	background: linear-gradient(to Right, orange 1%, #800000);
+	background-clip: text;
+}
+
+.content {
+	background: rgba(0, 0, 0, 0.8);
+	padding: 50px;
+	color: white;
+	width: 80%;
+	height: 100%;
+	align-self: center;
+	margin: auto;
+	border-radius: 25px;
+	filter: blur(0px);
+	z-index: -2;
+	float: auto;
+}
+
+#steps {
+	display: inline-block;
+	position:sticky;
+	top:-10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding:33px;
+	text-align:center;
+	margin:auto;
+	width:94%;
+	align-self:center;
+	align-content:center;
+	text-align:center;
+}
+
+#html-style, #create-video-style, #create-audio-style, #insert-video-style, #insert-audio-style{
+	background: linear-gradient(to top, violet 30%, blue);
+	background-clip: text;
+	color: transparent;
+	padding:15px;
+	margin:auto;
+	align-self: center;
+}
+
+a {
+	text-decoration: none;
+	color: transparent;
+	font-size: 25px;
+	padding: 0px;
+}
+
+#html-legend {
+	background: linear-gradient(orange 30%, white);
+	background-clip: text;
+	color: transparent;
+}
+
+#html-md {
+	border: black solid 1px;
+	border-radius: 25px;
+	padding: 25px;
+	color: transparent;
+	background: rgba(255, 255, 255, 0.5);
+	z-index: -1;
+}
+
+#htmlStructure {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#freecodecamp {
+	background: linear-gradient(to bottom, orange 15%, black);
+	background-clip: text;
+	color: transparent;
+	padding:27px;
+}
+
+#WeSchools {
+	background: linear-gradient(to top, white 10%, green);
+	color: transparent;
+	background-clip: text;
+	padding:27px;
+}
+
+#note {
+	background: linear-gradient(to bottom, pink 27%, yellow);
+	background-clip: text;
+	color: transparent;
+}
+
+#location-One{
+	background:rgba(50,50,50,0.5);
+	padding:5px;
+	border-radius:5px;
+	color:grey;
+}
+
+#location-Two{
+	color:yellow;
+	font-family:monosans;
+}
+
+#ex-One{
+	background:rgba(40,40,40,0.5);
+	padding:5px;
+	border-radius:5px;
+}
+
+#ex-Two{
+	color:lightBlue;
+	font-family:monosans;
+}
+
+#CVideo-legend{
+	background:linear-gradient(blue, yellow);
+	background-clip:text;
+	color:transparent;
+}
+
+#CAudio-legend{
+	background:linear-gradient(red 40%, orange);
+	background-clip:text;
+	color:transparent;
+}
+
+#insertingAudio-md {
+	background:rgba(255,255,255, 0.5);
+	border-radius: 25px;
+	padding:25px;
+}
+
+#IVideo-legend{
+	background:linear-gradient(skyBlue 20%, maroon);
+	background-clip: text;
+	color:transparent;
+
+}
+
+#IAudio-legend{
+	background: linear-gradient(purple 20%, yellow);
+	background-clip:text;
+	color: transparent;
+
+}
+
+
+audio::-webkit-media-controls-panel {
+	background:linear-gradient(to top right, purple 40%, orange);
+
+}
+
+#Video{
+	border-radius:25px;
+	padding:10px;
+	background: rgba(0, 0, 0, 0.5);
+	transition: ease-in-out 1s;
+}
+
+#Video:hover{
+	background:linear-gradient( to top Right, red, lightGreen);
+}
+
+#copyright{
+	font-size: 35px;
+	background-color: rgba(90, 90, 90, 0.5);
+	border-radius: 15px;
+	width: 550px;
+	padding: 25px;
+	align-self: center;
+	margin: auto;
+	text-align: center;
+	color: gray;
+
+}
