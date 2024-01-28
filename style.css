@@ -215,6 +215,49 @@ audio::-webkit-media-controls-panel {
 	background:linear-gradient( to top Right, red, lightGreen);
 }
 
+input{
+	padding:5px;
+	border-radius:5px;
+	outline:none;
+	border:none;
+}
+
+.exercise-one{
+	background:rgba(255,255,255,0.5);
+	border-radius:25px;
+	padding:25px;
+}
+
+.exercise-two{
+	background:rgba(255,255,255,0.5);
+	border-radius:25px;
+	padding:25px;
+}
+
+#audio-openingTag{
+	width:165px;
+}
+
+#source-audio{
+	width:280px;
+}
+
+#audio-closingTag{
+	width:52px;
+}
+
+#video-openingTag{
+	width:450px;
+}
+
+#source-video{
+	width:258px;
+}
+
+#video-closingTag{
+	width:52px;
+}
+
 #copyright{
 	font-size: 35px;
 	background-color: rgba(90, 90, 90, 0.5);
